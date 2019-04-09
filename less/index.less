@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 62.5%;		//Added this to adjust rem
 }
 ol, ul {
 	list-style: none;
@@ -57,3 +58,109 @@ html, body {
     height: 100%;
 }
 
+/* All my new code */
+@round: 50%;
+
+.first-cont {
+	display: block;
+	width: 100%;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+	p {
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.2rem;
+	}
+	& > *:not(.blurred-bg) {
+		z-index: 2;
+		position: relative;
+	}
+}
+.blurred-bg {
+	background-image: url("../images/background-hardwood-smooth-301717.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 700px;
+	-webkit-filter: blur(4px);
+} //Blurred background
+.resume-nav-cont {
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	//border: 1px solid red;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	padding: 10px 0px 10px 0px;
+	a {
+		color: white;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.2rem;
+	}
+}
+.square {
+	display: inline-block;
+	border: 1px solid white;
+	width: 500px;
+	height: 500px;
+	margin: 0px 0px 0px 100px;
+	img {
+		width: 300px;
+		height: 300px;
+		border-radius: @round;
+		margin: 5% 0px 0px 20%;
+	}
+	h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 3.5rem;
+		margin-top: 20px;
+	}
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.4rem;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+	h1, h2 {
+		color: white;
+		text-align: center;
+	}
+} //Top square
+.primero {
+	display: flex;
+	justify-content: space-between;
+	.two-top-paras {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		height: 350px;
+		justify-content: space-between;
+		margin-right: 95px;
+		.career-goals {
+			margin-bottom: 30px;
+			padding-bottom: 40px;
+			border-bottom: 1px solid white;
+			p {
+				line-height: 23px;
+			}
+		}
+		.personal-info p {
+			line-height: 25px;
+		}
+	}
+}
+
+.interests {
+	img {
+		width: 210px;
+		height: 200px;
+		border-radius: @round;
+	} //This resizes the three images at the bottom.
+}
