@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="820be620-3123-4b05-84d7-2973e012f767" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/less/index.css" afterDir="false" />
@@ -19,14 +20,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3732342">
+    <splitter split-orientation="horizontal" split-proportion="0.43643123">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+                <state relative-caret-position="342">
+                  <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
                 </state>
               </provider>
             </entry>
@@ -35,8 +45,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="322">
-                    <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+                  <first_editor relative-caret-position="588">
+                    <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -51,12 +61,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1207">
-                  <caret line="244" column="46" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="46" />
+                <state relative-caret-position="187">
+                  <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -65,6 +75,11 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rem</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,6 +87,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/index.less" />
       </list>
@@ -86,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +134,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,31 +175,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554708048372</updated>
-      <workItem from="1554708051102" duration="41877000" />
+      <workItem from="1554708051102" duration="43075000" />
+      <workItem from="1554858864461" duration="35000" />
+      <workItem from="1554858990056" duration="9850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41877000" />
+    <option name="totallyTimeSpent" value="52960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32931727" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32931727" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32931727" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -193,40 +210,44 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resume-example.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="318" column="41" selection-start-line="318" selection-start-column="41" selection-end-line="318" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="322">
-            <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <first_editor relative-caret-position="588">
+            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/index.css">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="318" column="41" selection-start-line="318" selection-start-column="41" selection-end-line="318" selection-end-column="41" />
+        <state relative-caret-position="273">
+          <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+        <state relative-caret-position="342">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="244" column="46" selection-start-line="244" selection-start-column="46" selection-end-line="244" selection-end-column="46" />
+        <state relative-caret-position="187">
+          <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
         </state>
       </provider>
     </entry>

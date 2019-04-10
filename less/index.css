@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -220,6 +220,28 @@ nav a {
   justify-content: space-between;
   margin-right: 95px;
 }
+.primero .two-top-paras .social-media .fa {
+  padding: 10px 0px 0px 0px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.primero .two-top-paras .social-media .fa:hover {
+  color: white;
+  background: mediumspringgreen;
+}
+.primero .two-top-paras .social-media .fa-github,
+.primero .two-top-paras .social-media .fa-facebook,
+.primero .two-top-paras .social-media .fa-linkedin,
+.primero .two-top-paras .social-media .fa-instagram,
+.primero .two-top-paras .social-media .fa-pinterest {
+  background: white;
+  color: mediumspringgreen;
+  border-radius: 50%;
+}
 .primero .two-top-paras .career-goals {
   margin-bottom: 30px;
   padding-bottom: 40px;
@@ -228,13 +250,16 @@ nav a {
 .primero .two-top-paras .career-goals p {
   line-height: 23px;
 }
+.primero .two-top-paras .personal-info {
+  margin-bottom: 50px;
+}
 .primero .two-top-paras .personal-info p {
   line-height: 25px;
 }
 .second-cont {
   display: block;
   width: 90%;
-  height: 2000px;
+  height: 1350px;
   margin: 0 auto;
 }
 .second-cont .first-bottom,
@@ -243,7 +268,6 @@ nav a {
   display: block;
   width: 100%;
   height: 500px;
-  border: 1px solid orange;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   margin-bottom: 50px;
@@ -287,12 +311,10 @@ nav a {
 .second-cont .second-bottom {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
 }
 .second-cont .second-bottom .languag3s,
 .second-cont .second-bottom .personal-quals {
   width: 40%;
-  border: 1px solid deeppink;
 }
 .second-cont .second-bottom .language-english,
 .second-cont .second-bottom .language-spanish {
@@ -305,23 +327,67 @@ nav a {
 }
 .second-cont .second-bottom .language-english p,
 .second-cont .second-bottom .language-spanish p {
-  margin-top: 35%;
+  margin-top: 45%;
 }
 .second-cont .second-bottom .languag3s div {
   display: block;
   flex-direction: row;
 }
-.second-cont .second-bottom .languag3s h3 {
+.second-cont .second-bottom .languag3s h3,
+.second-cont .second-bottom .personal-quals h3 {
+  text-align: center;
   margin-bottom: 20px;
   padding-bottom: 30px;
   border-bottom: 1px solid mediumspringgreen;
 }
-.second-cont .second-bottom .personal-quals p {
-  font-size: 500px;
+.second-cont .second-bottom .languag3s {
+  margin-left: 5%;
 }
-.interests img {
-  width: 210px;
+.second-cont .second-bottom .personal-quals {
+  margin-right: 5%;
+}
+.second-cont .second-bottom .personal-quals p {
+  text-align: center;
+  line-height: 40px;
+}
+.second-cont .third-bottom {
+  height: 350px;
+  display: flex;
+}
+.second-cont .third-bottom .skills,
+.second-cont .third-bottom .interests {
+  width: 50%;
+}
+.second-cont .third-bottom .skills h3,
+.second-cont .third-bottom .skills h3 {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid mediumspringgreen;
+}
+.second-cont .third-bottom .skills-lists {
+  display: flex;
+}
+.second-cont .third-bottom .skills-lists ul {
+  text-align: center;
+  line-height: 40px;
+  width: 50%;
   height: 200px;
+}
+.second-cont .third-bottom .interests h3 {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid mediumspringgreen;
+}
+.second-cont .third-bottom .interests .pic-cont {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+}
+.second-cont .third-bottom .interests img {
+  width: 160px;
+  height: 150px;
+  margin: 30px;
   border-radius: 50%;
 }
 /*# sourceMappingURL=index.css.map */
