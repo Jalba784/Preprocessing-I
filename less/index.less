@@ -1,5 +1,5 @@
 // Is this working?
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -25,12 +25,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	font-size: 62.5%;		//Added this to adjust rem
 }
 ol, ul {
 	list-style: none;
@@ -56,4 +57,259 @@ table {
 html, body {
     height: 100%;
 }
+
+
+
+
+/* All my new code */
+@round: 50%;
+@green: mediumspringgreen;
+@p: 1.2rem;
+
+.first-cont {
+	display: block;
+	width: 100%;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+	p {
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: @p;
+	}
+	& > *:not(.blurred-bg) {
+		z-index: 2;
+		position: relative;
+	}
+}
+.blurred-bg {
+	background-image: url("../images/fern.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 700px;
+	-webkit-filter: blur(8px);
+} //Blurred background
+.resume-nav-cont {
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	//border: 1px solid red;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	padding: 10px 0px 10px 0px;
+	a {
+		color: white;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: @p;
+	}
+}
+.square {
+	display: inline-block;
+	border: 1px solid white;
+	width: 500px;
+	height: 500px;
+	margin: 0px 0px 0px 100px;
+	img {
+		width: 300px;
+		height: 300px;
+		border-radius: @round;
+		margin: 5% 0px 0px 20%;
+	}
+	h1 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 3.5rem;
+		margin-top: 20px;
+	}
+	h2 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.4rem;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+	h1, h2 {
+		color: white;
+		text-align: center;
+	}
+} //Top square
+.primero {
+	display: flex;
+	justify-content: space-between;
+	.two-top-paras {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		height: 350px;
+		justify-content: space-between;
+		margin-right: 95px;
+		.social-media {
+			.fa {
+				padding: 10px 0px 0px 0px;
+				font-size: 30px;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				text-decoration: none;
+				margin: 5px 2px;
+			}
+
+			.fa:hover {
+				//opacity: 0.5;
+				color: white;
+				background: @green;
+			}
+
+			.fa-github, .fa-facebook, .fa-linkedin, .fa-instagram, .fa-pinterest {
+				background: white;
+				color: @green;
+				border-radius: @round;
+			}
+		}
+		.career-goals {
+			margin-bottom: 30px;
+			padding-bottom: 40px;
+			border-bottom: 1px solid white;
+			p {
+				line-height: 23px;
+			}
+		}
+		.personal-info {
+			margin-bottom: 50px;
+		}
+		.personal-info p {
+			line-height: 25px;
+		}
+	}
+}
+.second-cont {
+	display: block;
+	width: 90%;
+	height: 1350px;
+	margin: 0 auto;
+	.first-bottom, .second-bottom, .third-bottom {
+		display: block;
+		width: 100%;
+		height: 500px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: @p;
+		margin-bottom: 50px;
+	}
+	.first-bottom {
+		margin-top: 100px;
+		display: flex;
+		.work-experience, .education {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			margin-left: 3.33%;
+			width: 45%;
+			h3 {
+				margin-bottom: 20px;
+				padding-bottom: 30px;
+				border-bottom: 1px solid @green;
+			}
+			h4 {
+				margin-bottom: 20px;
+			}
+			p{
+				line-height: 25px;
+			}
+			.schools-2 {
+				margin-bottom: 80px;
+			}
+		}
+	}
+	h3 {
+		font-size: 1.4rem;
+	}
+	h4 {
+		font-size: @p;
+	}
+	.second-bottom {
+		display: flex;
+		justify-content: space-between;
+		.languag3s, .personal-quals {
+			width: 40%;
+		}
+		.language-english, .language-spanish {
+			border: 1px solid @green;
+			width: 40%;
+			height: 200px;
+			border-radius: @round;
+			text-align: center;
+			margin: 20px 0px 0px 30%;
+			p {
+				margin-top: 45%;
+			}
+		}
+		.languag3s div {
+			display: block;
+			flex-direction: row;
+		}
+		.languag3s h3, .personal-quals h3 {
+			text-align: center;
+			margin-bottom: 20px;
+			padding-bottom: 30px;
+			border-bottom: 1px solid @green;
+		}
+		.languag3s {
+			margin-left: 5%;
+		}
+		.personal-quals {
+			margin-right: 5%;
+		}
+		.personal-quals p {
+			text-align: center;
+			line-height: 40px;
+		}
+	} //End of second-bottom
+	.third-bottom {
+		height: 350px;
+		display: flex;
+		.skills, .interests {
+			width: 50%;
+		}
+		.skills h3, .skills h3 {
+			margin-bottom: 20px;
+			padding-bottom: 30px;
+			border-bottom: 1px solid @green;
+		}
+		.skills-lists {
+			display: flex;
+			ul {
+				text-align: center;
+				line-height: 40px;
+				width: @round;
+				height: 200px;
+			}
+		}
+		.interests {
+			h3 {
+				margin-bottom: 20px;
+				padding-bottom: 30px;
+				border-bottom: 1px solid @green;
+			}
+			.pic-cont {
+				display: flex;
+				justify-content: center;
+				height: 200px;
+				text-align: center;
+			}
+			img {
+				width: 160px;
+				height: 150px;
+				margin: 30px;
+				border-radius: @round;
+			} //This resizes the three images at the bottom.
+		}
+	} //End of third-bottom
+
+} //End of second container
+
 
