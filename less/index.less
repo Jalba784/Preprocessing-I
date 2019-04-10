@@ -78,14 +78,14 @@ html, body {
 	}
 }
 .blurred-bg {
-	background-image: url("../images/background-hardwood-smooth-301717.jpg");
+	background-image: url("../images/fern.jpg");
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	width: 100%;
 	height: 700px;
-	-webkit-filter: blur(4px);
+	-webkit-filter: blur(8px);
 } //Blurred background
 .resume-nav-cont {
 	display: flex;
@@ -156,6 +156,86 @@ nav {
 		}
 	}
 }
+.second-cont {
+	display: block;
+	width: 90%;
+	height: 2000px;
+	margin: 0 auto;
+	.first-bottom, .second-bottom, .third-bottom {
+		display: block;
+		width: 100%;
+		height: 500px;
+		border: 1px solid orange;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1.2rem;
+		margin-bottom: 50px;
+	}
+	.first-bottom {
+		margin-top: 100px;
+		display: flex;
+		.work-experience, .education {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			margin-left: 3.33%;
+			width: 45%;
+			h3 {
+				margin-bottom: 20px;
+				padding-bottom: 30px;
+				border-bottom: 1px solid mediumspringgreen;
+			}
+			h4 {
+				margin-bottom: 20px;
+			}
+			p{
+				line-height: 25px;
+			}
+			.schools-2 {
+				margin-bottom: 80px;
+			}
+		}
+	}
+	h3 {
+		font-size: 1.4rem;
+	}
+	h4 {
+		font-size: 1.2rem;
+	}
+	.second-bottom {
+		display: flex;
+		justify-content: space-between;
+		border: 1px solid black;
+		.languag3s, .personal-quals {
+			width: 40%;
+			border: 1px solid deeppink;
+		}
+		.language-english, .language-spanish {
+			border: 1px solid mediumspringgreen;
+			width: 40%;
+			height: 200px;
+			border-radius: 50%;
+			text-align: center;
+			margin: 20px 0px 0px 30%;
+			p {
+				margin-top: 35%;
+			}
+		}
+		.languag3s div {
+			display: block;
+			flex-direction: row;
+		}
+		.languag3s h3 {
+			margin-bottom: 20px;
+			padding-bottom: 30px;
+			border-bottom: 1px solid mediumspringgreen;
+		}
+		.personal-quals p {
+			font-size: 500px;
+		}
+	} //End of second-bottom
+
+} //End of second container
+
 
 .interests {
 	img {
